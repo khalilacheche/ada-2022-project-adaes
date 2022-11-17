@@ -56,3 +56,12 @@ def get_value_evolution(games_path_values, num_samples=100):
         points_estimation.append(np.mean(estimations))
         points_std.append(np.std(estimations))
     return points_x, points_estimation, points_std
+
+#Method to reduce the Topics
+def reduce(s):
+    s= s[::-1] 
+    index1 = s.find('.')
+    return s[0:index1][::-1] 
+    
+#print(reduce("subject.Art.Art"))
+#print(reduce("IJEFNî~îÏÂÈ~ÂœîÏ"))

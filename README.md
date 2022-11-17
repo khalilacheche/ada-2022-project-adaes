@@ -18,7 +18,7 @@ We believe that, by analysing the three aforementioned axis, we will be able to 
 ## Research Questions
 Through the different steps of our proposed analysis, we plan on investigating the following questions :  
 1. Can this behaviour be generalised? 
-      - Are the most central nodes with the most visited ones? 
+      - Are the most central nodes the most visited ones? 
       - What is the evolution of the centrality of the nodes visited in the path? 
 
 2. What is the semantic meaning of these paths? 
@@ -88,6 +88,20 @@ Through the different steps of our proposed analysis, we plan on investigating t
   - **Step 3 & 4** : Mouaffak Selim & Zayene Mehdi
   - **Step 5** : Zayene Mehdi & Mouaffak Selim  
   - **Step 6** : All Team
+  
+  
+## How to use 
+### Content
+This repository contains three main files :  
+  - **Data_Engineering.ipynb** : This file contains the major preprocessing steps as well as the construction of useful data structures.
+  - **helpers.py** : helper functions and tool methods.
+  - **How_Predictable_Are_Humans.ipynb** : this notebook contains the main storytelling steps of our analysis   
+
+### Installation
+
+ - Make sure to install all required packages by running the following command :  
+``$ pip install -r requirements.txt ``
+ 
 
 ## Credits 
 This project was realised by four EPFL (École Polytechnique Fédérale de Lausanne) students : 
