@@ -51,10 +51,9 @@ Through the different steps of our proposed analysis, we plan on investigating t
 
 
 **Step 3 :**
-   - Compute and plot the distance to the goal as a function of the hops
-   - We define the distance metric as the shortest path distance from that point to the destination (as can be found in the dataset) 
-   - For each hop of the considered path, compute the distance to the goal using the defined metric 
-   - Plot the evolution of the metric as 
+   - We define the distance metric as the shortest path distance from point to the end article (as can be found in the dataset) 
+   - For each hop of the considered path, compute the distance from that hop to the goal using the defined metric 
+   - Plot the evolution of the metric as we progress through the path
 
 
 **Step 4 :** 
@@ -64,8 +63,8 @@ Through the different steps of our proposed analysis, we plan on investigating t
 
 
 **Step 5 :**
-  - Plot evolution of semantic closeness along the path 
-  - See if played paths are getting semantically closer to destination 
+  - See if the players are getting semantically closer to the destination by each hop they take 
+  - Plot the evolution of the semantic closeness from each hop to the target page as we progress through the path 
   - Observe and draw conclusion on players' behaviour 
 
 
@@ -73,14 +72,22 @@ Through the different steps of our proposed analysis, we plan on investigating t
   - Study looser paths and investigate if they follow the same strategy 
   - Compute overall success rate of the strategy 
   - Wrap up and draw final conclusions about **predictability of human behaviour**
+  - Present everything in the form of story telling 
+
 
 ## Proposed Timeline 
-  - Step 1 : 16/11/2022
-  - Step 2 : 28/11/2022
-  - Step 3 & 4 : 12/12/2022
-  - Step 5 
+  - **Step 1** : 16/11/2022
+  - **Step 2** : 25/11/2022
+  - **Step 3 & 4** : 5/12/2022
+  - **Step 5** : 12/12/2022 
+  - **Step 6** : 21/12/2022
 
 ## Organisation within the team 
+  - **Step 1** : Acheche Khalil & Chaouch Yassine
+  - **Step 2** : Chaouch Yassine & Acheche Khalil
+  - **Step 3 & 4** : Mouaffak Selim & Zayene Mehdi
+  - **Step 5** : Zayene Mehdi & Mouaffak Selim  
+  - **Step 6** : All Team
 
 ## Credits 
 This project was realised by four EPFL (École Polytechnique Fédérale de Lausanne) students : 
