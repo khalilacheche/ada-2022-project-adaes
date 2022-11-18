@@ -62,6 +62,3 @@ def reduce(s):
     s= s[::-1] 
     index1 = s.find('.')
     return s[0:index1][::-1] 
-    
-#print(reduce("subject.Art.Art"))
-#print(reduce("IJEFNî~îÏÂÈ~ÂœîÏ"))
