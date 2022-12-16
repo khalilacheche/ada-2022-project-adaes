@@ -1,5 +1,6 @@
 import numpy as np
 from numpy.random import default_rng
+from sentence_transformers.util import cos_sim
 
 # for a given series of visited pages, this method removes the nodes that are not in the final path in O(n)
 # by folding the back characters ("<") with the page preceding it and removing them from the path
@@ -107,3 +108,12 @@ def reduce(s):
     s = s[::-1]
     index1 = s.find(".")
     return s[0:index1][::-1]
+
+
+
+# This function will compute similarities between all page hops and the target article using transformers cos_sim  
+def compute_cosine_similarity(df_embeddings,list_of_articles, target_article):
+    df_path = df_embeddings[df_embeddings.file_name.apply(lambda x : x in list_of_articles+[target_article])]
+    target_vector = df_path[df_path.file_name == target_article]['embeddings'].iloc[0]
+    list_of_vectors = [df_path[df_path.file_name == article]['embeddings'].iloc[0] for article in list_of_articles]
+    return cos_sim(np.array(list_of_vectors).astype(float),np.array(target_vector).astype(float)).numpy()
