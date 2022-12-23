@@ -320,7 +320,7 @@ def plot_average_evolution(values, measure):
     )
     fig.update_annotations(font_size=13)
 
-    fig.show()
+    fig.show(renderer='svg')
 
 
 # Function that yields shortest path from start to end
@@ -393,7 +393,7 @@ def plot_evolution_shortest_path(values, measure):
     )
     fig.update_annotations(font_size=13)
 
-    fig.show()
+    fig.show(renderer="svg")
 
 
 # Compute similarities from each node to the target node for the shortest path of the top K most played games

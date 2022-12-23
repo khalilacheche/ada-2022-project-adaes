@@ -24,7 +24,8 @@ Through the different steps of our proposed analysis, we plan on investigating t
 1. Is there a behaviour that can be generalized?
 
    - Are the most central nodes the most visited ones?
-   - What is the evolution of the centrality of the nodes visited in the path?
+   - What is the evolution of the centrality of the nodes visited in the players' path?
+   - What is the evolution of the centrality of the nodes visited in the shortest path?
 2. What is the semantic meaning of the players' paths?
  
    - Is the player getting semantically closer to the goal?
