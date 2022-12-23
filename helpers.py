@@ -266,7 +266,7 @@ def plot_average_evolution(values, measure):
         rows=num_rows,
         cols=num_cols,
         subplot_titles=[
-            "<b>{} to {} <br> ({} games</b>)".format(key[0], key[1], value[4])
+            "<b>{} to {} <br> ({} games)</b>".format(key[0], key[1], value[4])
             for key, value in values.items()
         ],
         horizontal_spacing=0.15,
@@ -313,7 +313,7 @@ def plot_average_evolution(values, measure):
     fig.update_layout(
         height=900,
         width=1200,
-        title_text="<b> Evolution of {} measure on shortest path \b ".format(
+        title_text="<b> Evolution of {} measure on players' paths \b ".format(
             str(measure)
         ),
         title_x=0.5,

@@ -38,12 +38,12 @@ Through the different steps of our proposed analysis, we plan on investigating t
 
 ## Website & Data Story 
 The website that presents the data story can be accessed by following this [link](https://mehdizayene-adaes-wikispeedia-homepage-67asrh.streamlit.app/).
-The website contains two main pages : the homepage and the data story page.
+The website contains two main pages : the homepage and the data story page. You can seemlessly navigate between both pages using the index on the top left of the website.
 
 ### Homepage
 The homepage presents the dataset and allows the reader to effectively play a game of Wikispeedia :
-- By clicking on the *Start the game!* button, a random path will be drawn for the player to achieve. 
-- Displayed on the screen are the node count, the current and target articles as well as a *get hint* button if you ever feel stuck. 
+- By clicking on the *Start the game!* button, a path will be drawn for the player to achieve. 
+- Displayed on the screen are the node count, the current and target articles as well as a *get hint* button if you ever feel stuck. This will find the shortest path to the target from the current node and help the player by giving the first node on that path.
 - The choice can be made in the selection box by clicking on the article and then on the *submit* button. An *abandon* button is also there to allow the player to give up at any point. 
 - Finally, a snippet of the current article is displayed on top to allow the user to make an informed decision about the next article. 
 
