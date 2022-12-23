@@ -21,20 +21,19 @@ We believe that, by analysing the three aforementioned axis, we will be able to 
 
 Through the different steps of our proposed analysis, we plan on investigating the following questions :
 
-1. Can this behaviour be generalised?
+1. Is there a behaviour that can be generalized?
 
    - Are the most central nodes the most visited ones?
    - What is the evolution of the centrality of the nodes visited in the path?
-2. What is the semantic meaning of these paths?
-
-   - Are the players getting closer to the goal according to the shortest path metric?
-   - Does shortest path reflect semantic closeness/similarity?
+2. What is the semantic meaning of the players' paths?
+ 
    - Is the player getting semantically closer to the goal?
-3. Is this strategy optimal?
+   - Does shortest path reflect semantic closeness/similarity?
+3. Are there any strategies to avoid?
 
-   - Is this strategy the one that yields the most winner paths?
-   - Is it just the most popular (i.e. most intuitive) strategy?
-   - Or is taking more risks better?
+   - How do people that do not succeed behave?
+   - How do they differ from winners in their decision making?
+
 
 ## Website & Data Story 
 The website that presents the data story can be accessed by following this [link](https://mehdizayene-adaes-wikispeedia-homepage-67asrh.streamlit.app/).
@@ -90,7 +89,7 @@ This page contains the narrative of our data story.
 **Step 6 :**
 
 - Study looser paths and investigate if they follow the same strategy
-- Find out what makes winne
+- Find out what differs in their decision making
 - Wrap up and draw final conclusions about **predictability of human behaviour**
 - Present everything in the form of story telling
 
@@ -116,7 +115,7 @@ This page contains the narrative of our data story.
 
 This repository contains three main files :
 
-- **The_Untold_Truth_Behind_Wikispeedia.ipynb** : this notebook contains the main storytelling steps of our analysis
+- **The_Untold_Truth_Behind_Wikispeedia.ipynb** : this notebook contains the main storytelling steps of our analysis and the entirety of the data story
 - **Data_Engineering.ipynb** : This file contains the major preprocessing steps as well as the construction of useful data structures.
 - **helpers.py** : helper functions and tool methods.
 
