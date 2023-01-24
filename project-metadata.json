@@ -1,0 +1,8 @@
+{
+  "title": "Wikispeedia Data Analysis",
+  "img_path": "https://raw.githubusercontent.com/khalilacheche/ada-2022-project-adaes/project-metadata/wikispeedia.png",
+  "description": "Data Analysis for the Wikispeedia dataset",
+  "tags": ["Data Analysis"],
+  "langs": ["Python"],
+  "frameworks":["Streamlit","Juypter"]
+}
